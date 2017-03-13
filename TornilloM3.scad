@@ -53,7 +53,7 @@ thread_step    					= 0.5;
 //Step shape degrees (45 degrees is optimised for most printers ref. ISO262: 30 degrees)
 step_shape_degrees 				= 45;	
 //Length of the threaded section
-thread_length  					= 5;	
+thread_length  					= 10;	
 //Countersink in both ends
 countersink  					= 2;	
 //Length of the non-threaded section
