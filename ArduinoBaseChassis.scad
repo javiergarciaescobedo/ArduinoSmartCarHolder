@@ -16,31 +16,31 @@ difference() {
     union() {
         cube([unoWidth, unoHeight, thickness]);
         translate([unoHoleDLx-unoHoleMargin, unoHoleDLy-unoHoleMargin, -0.01]) {
-            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+2]);
+            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+3]);
         }
         translate([unoHoleULx-unoHoleMargin,, unoHoleULy-unoHoleMargin,, -0.01]) {
-            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+2]);
+            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+3]);
         }    
         translate([unoHoleURx-unoHoleMargin,, unoHoleURy-unoHoleMargin,, -0.01]) {
-            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+2]);
+            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+3]);
         }   
         translate([unoHoleDRx-unoHoleMargin,, unoHoleDRy-unoHoleMargin,, -0.01]) {
-            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+2]);
+            cube([unoHoleMargin*2, unoHoleMargin*2, thickness+3]);
         } 
     }
     
     // Arduino UNO holes
     translate([unoHoleDLx, unoHoleDLy, -0.01]) {
-        cylinder(h = thickness + 2 + 0.02, r = holeRadius, $fn=100);
+        cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
     }
     translate([unoHoleULx, unoHoleULy, -0.01]) {
-        cylinder(h = thickness + 2 + 0.02, r = holeRadius, $fn=100);
+        cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
     }    
     translate([unoHoleURx, unoHoleURy, -0.01]) {
-        cylinder(h = thickness + 2 + 0.02, r = holeRadius, $fn=100);
+        cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
     }   
     translate([unoHoleDRx, unoHoleDRy, -0.01]) {
-        cylinder(h = thickness + 2 + 0.02, r = holeRadius, $fn=100);
+        cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
     } 
    
     translate([unoWidth/2, unoHoleDRy, -0.01]) {
