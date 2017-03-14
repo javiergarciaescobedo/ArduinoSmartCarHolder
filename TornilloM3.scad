@@ -35,7 +35,7 @@ head_type              			= "hex";//[hex,socket,button,countersunk]
 //Drive type - Socket, Phillips, Slot (ignored for Hex head type and Rod)
 drive_type              		= "slot";//[socket,phillips,slot]
 //Distance between flats for the hex head or diameter for socket or button head (ignored for Rod)
-head_diameter    				= 4;	
+head_diameter    				= 4.5;	
 //Height of the head (ignored for Rod)
 head_height  					= 2;	
 //Diameter of drive type (ignored for Hex head and Rod)
@@ -47,9 +47,9 @@ slot_depth 					    = 1;
 //Surface texture (socket head only)
 texture                         = "exclude";//[include,exclude]
 //Outer diameter of the thread
-thread_outer_diameter           = 2.9;		
+thread_outer_diameter           = 3.25;		
 //Thread step or Pitch (2mm works well for most applications ref. ISO262: M3=0.5,M4=0.7,M5=0.8,M6=1,M8=1.25,M10=1.5)
-thread_step    					= 0.5;
+thread_step    					= 1;
 //Step shape degrees (45 degrees is optimised for most printers ref. ISO262: 30 degrees)
 step_shape_degrees 				= 45;	
 //Length of the threaded section
