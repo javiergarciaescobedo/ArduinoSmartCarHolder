@@ -31,7 +31,7 @@ type						    = "bolt";//[nut,bolt,rod,washer]
 /* [Bolt and Rod Options] */
 
 //Head type - Hex, Socket Cap, Button Socket Cap or Countersunk Socket Cap (ignored for Rod)
-head_type              			= "socket";//[hex,socket,button,countersunk]
+head_type              			= "hex";//[hex,socket,button,countersunk]
 //Drive type - Socket, Phillips, Slot (ignored for Hex head type and Rod)
 drive_type              		= "slot";//[socket,phillips,slot]
 //Distance between flats for the hex head or diameter for socket or button head (ignored for Rod)
@@ -41,7 +41,7 @@ head_height  					= 2;
 //Diameter of drive type (ignored for Hex head and Rod)
 drive_diameter					= 5;	
 //Width of slot aperture for phillips or slot drive types
-slot_width					    = 0.8;
+slot_width					    = 1;
 //Depth of slot aperture for slot drive type
 slot_depth 					    = 1;
 //Surface texture (socket head only)
@@ -53,7 +53,7 @@ thread_step    					= 0.5;
 //Step shape degrees (45 degrees is optimised for most printers ref. ISO262: 30 degrees)
 step_shape_degrees 				= 45;	
 //Length of the threaded section
-thread_length  					= 10;	
+thread_length  					= 5;	
 //Countersink in both ends
 countersink  					= 2;	
 //Length of the non-threaded section
