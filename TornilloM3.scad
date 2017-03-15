@@ -31,7 +31,7 @@ type						    = "bolt";//[nut,bolt,rod,washer]
 /* [Bolt and Rod Options] */
 
 //Head type - Hex, Socket Cap, Button Socket Cap or Countersunk Socket Cap (ignored for Rod)
-head_type              			= "hex";//[hex,socket,button,countersunk]
+head_type              			= "socket";//[hex,socket,button,countersunk]
 //Drive type - Socket, Phillips, Slot (ignored for Hex head type and Rod)
 drive_type              		= "slot";//[socket,phillips,slot]
 //Distance between flats for the hex head or diameter for socket or button head (ignored for Rod)
@@ -41,9 +41,9 @@ head_height  					= 2;
 //Diameter of drive type (ignored for Hex head and Rod)
 drive_diameter					= 5;	
 //Width of slot aperture for phillips or slot drive types
-slot_width					    = 1;
+slot_width					    = 1.5;
 //Depth of slot aperture for slot drive type
-slot_depth 					    = 1;
+slot_depth 					    = 1.5;
 //Surface texture (socket head only)
 texture                         = "exclude";//[include,exclude]
 //Outer diameter of the thread
