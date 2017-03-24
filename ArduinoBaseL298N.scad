@@ -9,7 +9,7 @@ unoHoleURx = 14 + 1.3 + 50.8;
 unoHoleURy = unoHoleMargin + 5.1 + 27.9;
 unoHoleDRx = 14 + 1.3 + 50.8;
 unoHoleDRy = unoHoleMargin + 5.1;
-holeRadius = 1.6;
+holeRadius = 1.75;
 thickness = 2;
 
 difference() {
@@ -65,19 +65,19 @@ difference() {
     translate([0, (53.3 - 43) / 2, 0]) {
         // L298N holes
         translate([3, 3, -0.01]) {
-            cylinder(h = thickness + 3 + 0.02, r = 1.6, $fn=100);
+            cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
         }
         translate([3, 40, -0.01]) {
             //hex_nut(nut_diameter,nut_height,nut_thread_step,nut_step_shape_degrees,nut_thread_outer_diameter,nut_resolution);
-            cylinder(h = thickness + 3 + 0.02, r = 1.6, $fn=100);
+            cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
         }
         translate([40, 40, -0.01]) {
  //           hex_nut(nut_diameter,nut_height,nut_thread_step,nut_step_shape_degrees,nut_thread_outer_diameter,nut_resolution);
-            cylinder(h = thickness + 3 + 0.02, r = 1.6, $fn=100);
+            cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
         }
         translate([40, 3, -0.01]) {
 //            hex_nut(nut_diameter,nut_height,nut_thread_step,nut_step_shape_degrees,nut_thread_outer_diameter,nut_resolution);
-            cylinder(h = thickness + 3 + 0.02, r = 1.6, $fn=100);
+            cylinder(h = thickness + 3 + 0.02, r = holeRadius, $fn=100);
         }
     }
 }
