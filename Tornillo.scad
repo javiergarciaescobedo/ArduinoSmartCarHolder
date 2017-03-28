@@ -41,9 +41,9 @@ head_height  					= 2;
 //Diameter of drive type (ignored for Hex head and Rod)
 drive_diameter					= 5;	
 //Width of slot aperture for phillips or slot drive types
-slot_width					    = 1.5;
+slot_width					    = 1;
 //Depth of slot aperture for slot drive type
-slot_depth 					    = 1.5;
+slot_depth 					    = 1;
 //Surface texture (socket head only)
 texture                         = "exclude";//[include,exclude]
 //Outer diameter of the thread
@@ -53,11 +53,11 @@ thread_step    					= 1;
 //Step shape degrees (45 degrees is optimised for most printers ref. ISO262: 30 degrees)
 step_shape_degrees 				= 45;	
 //Length of the threaded section
-thread_length  					= 10;	
+thread_length  					= 5;	
 //Countersink in both ends
-countersink  					= 2;	
+countersink  					= 4;	
 //Length of the non-threaded section
-non_thread_length				= 0;	
+non_thread_length				= 5;	
 //Diameter for the non-threaded section (-1: Same as inner diameter of the thread, 0: Same as outer diameter of the thread, value: The given value)
 non_thread_diameter				= 0;	
 

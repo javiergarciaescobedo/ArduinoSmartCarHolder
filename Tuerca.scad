@@ -66,7 +66,7 @@ non_thread_diameter				= 0;
 //Type: Normal or WingNut
 nut_type	                    = "normal";//[normal,wingnut]
 //Distance between flats for the hex nut
-nut_diameter    				= 4.5;	
+nut_diameter    				= 5;	
 //Height of the nut
 nut_height	  				    = 15;	
 //Outer diameter of the bolt thread to match (usually set about 1mm larger than bolt diameter to allow easy fit - adjust to personal preferences) 
